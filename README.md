@@ -1,3 +1,3 @@
-                           # Telegram Downloader
----
+# Telegram Downloader
+<hr>
 
