@@ -5,8 +5,9 @@ Teledown is a `python` script that automate downloading pictures from multiple t
 Before your can use Teledown, please ensure that your have installed the following packages.
 * Requests module
 * BeautifulSoup module
-<br/>
+
 `pip3 install -r requirement.txt`
+
 ## Installing
 
 ```
