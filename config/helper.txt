@@ -2,12 +2,12 @@ NAME
 	Teledown - Script to download multiple Telegram Images
 	
 SYNOPSIS
-	./teledown [OPTION] CHANNELLINK...
+	./teledown [OPTION] CHANNELNAME...
 
 Description
-      CHANNELLINK is the name after the protocol and hostname
+      CHANNELNAME is the name after the protocol and hostname
       e.g 
-          https://t.me/--->[CHANNELLINK] <---
+          https://t.me/--->[CHANNELNAME] <---
 
 Options                             Descriptions
 

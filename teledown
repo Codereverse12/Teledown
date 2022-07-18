@@ -3,18 +3,19 @@
 # teledown - Script To Download Multiple Telegram Images.
 
 import sys,requests,bs4,re
+
 def downloader(links):
+    count = 0
     for i in range(len(links)):
-        res = requests.get(links[i])
         try:
-            res.raise_for_status()
+            res = requests.get(links[i],timeout=(10))
         except Exception as exc:
-            print('Error %s '%(exc))
+            count+=1
             continue
         file1 = open(f'output/img{i+1}.jpg','wb')
-        for chuck in res.iter_content(1000):
-            file1.write(chuck)
+        file1.write(res.content)
         file1.close()
+    print(f"({count})timeouts")   
 def processor(src):
     url = []
     regex = re.compile(r'https://.*\.jpg')
@@ -29,18 +30,16 @@ def srcimg(listchanl ,num = 0):
     src=[]
     for i in listchanl:
         respObj = requests.get("https://t.me/s/"+i)
-        try:
-            respObj.raise_for_status()
-        except Exception as exc:
-            print('Error %s ' %(exc))
+        if respObj.status_code not in range(200,300):
             continue
         soupObj = bs4.BeautifulSoup(respObj.text,features='lxml')
         tagObjs = soupObj.select('a[style]')
         if num != 0 and num < len(tagObjs):
             tagObjs = tagObjs[:num]
+        print(f"{i}    {len(tagObjs)} found.")    
         for tagObj in tagObjs:
             src.append(tagObj.get('style'))
-        return src
+    return src
 
 helper = open('./config/helper.txt','r').read()
 
@@ -55,15 +54,15 @@ elif sys.argv[1] == '-h':
     sys.exit()
 elif sys.argv[1] == '-N':
     if len(sys.argv) > 3 and str(sys.argv[2]).isdecimal():
-        print('Please wait')
+        print('Please wait'.center(33))
         listname = sys.argv[3:]
-        imageurl = processor(srcimg(listname,int(sys.argv[2])))
+        imageurl = processor(srcimg(listname, num = int(sys.argv[2])))
         downloader(imageurl)
         sys.exit()
     else:
         print(hp)
         sys.exit()
-print('Please wait')
+print('Please wait'.center(33))
 listname = sys.argv[1:]
 imageurl = processor(srcimg(listname))
 downloader(imageurl)
