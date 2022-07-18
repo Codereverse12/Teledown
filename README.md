@@ -17,8 +17,8 @@ chmod +x teledown
 
 ## Using Teledown
 
-**Basic command:**
- **SYNOPSIS**
+**Basic command:**<br/>
+ **SYNOPSIS**<br/>
          `./teledown [OPTION] CHANNALNAME...`
 ![Command to type](./config/cmd.png)<br/><br/>
 **Help command:**<br/><br/>
