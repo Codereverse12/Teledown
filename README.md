@@ -6,13 +6,12 @@ Before your can use Teledown, please ensure that your have installed the followi
 * Requests module
 * BeautifulSoup module
 
-`pip3 install -r requirement.txt`
-
 ## Installing
 
 ```
 git clone https://github.com/Codereverse12/Teledown.git
 cd Teledown
+pip3 install -r requirement.txt
 ```
 
 ## Using Teledown
