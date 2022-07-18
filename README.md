@@ -20,20 +20,19 @@ chmod +x teledown
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./teledown [OPTION] CHANNELNAME...`<br/>
 
-### Disclaimer:
-
-The `CHANNELNAME` is the name after the protocol and the hostname.
-
-&nbsp;&nbsp;e.g,  `https://t.me/[CHANNELNAME]`
-
 **Basic command:**<br/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Command to type](./config/cmd.png)<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Command to type](./config/cmd.png)<br/>
+
 **Help command:**<br/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Command to help](./config/help.png)
 
+## Disclaimer
 
+The `CHANNELNAME` is the name after the protocol and the hostname.
+
+&nbsp;&nbsp;&nbsp;&nbsp;e.g, `https://t.me/[CHANNELNAME]`
 
 
 
