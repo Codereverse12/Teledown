@@ -20,7 +20,8 @@ chmod +x teledown
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./teledown [OPTION] CHANNELNAME...`<br/>
 
-**disclaimer**
+**Disclaimer:**
+
 The CHANNELNAME is the name after the protocol and the hostname.
 
 e.g,  `https://t.me/[CHANNELNAME]`
