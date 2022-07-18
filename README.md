@@ -12,12 +12,15 @@ Before your can use Teledown, please ensure that your have installed the followi
 git clone https://github.com/Codereverse12/Teledown.git
 cd Teledown
 pip3 install -r requirement.txt
+chmod +x teledown
 ```
 
 ## Using Teledown
 
 **Basic command:**<br/><br/>
 ![Command to type](./config/cmd.png)<br/><br/>
+ **SYNOPSIS**
+         `./teledown [OPTION] CHANNALNAME...`
 **Help command:**<br/><br/>
 ![Command to help](./config/help.png)
 
