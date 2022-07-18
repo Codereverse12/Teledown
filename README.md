@@ -10,7 +10,7 @@ cd Teledown
 ```
 
 ## Using Teledown
-**Basic command**<br>
+**Basic command**<br/><br/>
 ![Command to type](./config/cmd.png)
 
 
