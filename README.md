@@ -16,8 +16,15 @@ chmod +x teledown
 ```
 
 ## Using Teledown
-**SYNOPSIS:**<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./teledown [OPTION] CHANNELNAME...`<br/><br/>
+**SYNOPSIS:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./teledown [OPTION] CHANNELNAME...`<br/>
+
+**disclaimer**
+The CHANNELNAME is the name after the protocol and the hostname.
+
+e.g,  `https://t.me/[CHANNELNAME]`
+
 **Basic command:**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Command to type](./config/cmd.png)<br/><br/>
 **Help command:**<br/>
