@@ -16,12 +16,12 @@ chmod +x teledown
 ```
 
 ## Using Teledown
-**SYNOPSIS**<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./teledown [OPTION] CHANNALNAME...`<br/>
+**SYNOPSIS:**<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./teledown [OPTION] CHANNALNAME...`<br/><br/>
 **Basic command:**<br/>
-![Command to type](./config/cmd.png)<br/><br/>
-**Help command:**<br/><br/>
-![Command to help](./config/help.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Command to type](./config/cmd.png)<br/><br/>
+**Help command:**<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Command to help](./config/help.png)
 
 
 
