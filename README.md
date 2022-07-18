@@ -2,7 +2,7 @@
 
 Teledown is a `python` script that automate downloading pictures from multiple telegram channels at once.
 ## Prerequisites
-Before your can use Teledown, please ensure that your have installed the following packages.
+Before your can use Teledown, please ensure that your have installed the following packages.<br/>
 *Requests module
 *BeautifulSoup module
 ## Installing
