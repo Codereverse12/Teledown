@@ -10,11 +10,13 @@ cd Teledown
 ```
 
 ## Using Teledown
-**Command Synopsis**<br/><br/>
-`./teledown OPTION [OPTION] CHANNALNAME [CHANNALNAME] ... `
-<br/><br/>
+
 **Basic command**<br/><br/>
-![Command to type](./config/cmd.png)
+![Command to type](./config/cmd.png)<br/><br/>
+**Help manual**<br/><br/>
+![Command to help](./config/help.png)
+
+
 
 
 
