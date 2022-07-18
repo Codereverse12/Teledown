@@ -29,8 +29,10 @@ def processor(src):
 def srcimg(listchanl ,num = 0):
     src=[]
     for i in listchanl:
-        respObj = requests.get("https://t.me/s/"+i)
-        if respObj.status_code not in range(200,300):
+        try:
+            respObj = requests.get("https://t.me/s/"+i,timeout=(10))
+        except:
+            print(f"{i} timeout")
             continue
         soupObj = bs4.BeautifulSoup(respObj.text,features='lxml')
         tagObjs = soupObj.select('a[style]')
