@@ -4,7 +4,7 @@
 
 import sys,requests,bs4,re
 def downloader(links):
-    for i in range(links):
+    for i in range(len(links)):
         res = requests.get(links[i])
         try:
             res.raise_for_status()
@@ -55,6 +55,7 @@ elif sys.argv[1] == '-h':
     sys.exit()
 elif sys.argv[1] == '-N':
     if len(sys.argv) > 3 and str(sys.argv[2]).isdecimal():
+        print('Please wait')
         listname = sys.argv[3:]
         imageurl = processor(srcimg(listname,int(sys.argv[2])))
         downloader(imageurl)
@@ -62,7 +63,7 @@ elif sys.argv[1] == '-N':
     else:
         print(hp)
         sys.exit()
-
+print('Please wait')
 listname = sys.argv[1:]
 imageurl = processor(srcimg(listname))
 downloader(imageurl)
