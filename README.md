@@ -28,7 +28,7 @@ chmod +x teledown
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Command to help](./config/help.png)
 
-## Disclaimer
+## Note
 
 The `CHANNELNAME` is the name after the protocol and the hostname.
 
