@@ -11,9 +11,9 @@ cd Teledown
 
 ## Using Teledown
 
-**Basic command**<br/><br/>
+**Basic command:**<br/><br/>
 ![Command to type](./config/cmd.png)<br/><br/>
-**Help manual**<br/><br/>
+**Help manual:**<br/><br/>
 ![Command to help](./config/help.png)
 
 
