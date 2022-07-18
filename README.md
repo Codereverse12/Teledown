@@ -1,6 +1,6 @@
 # Teledown
 
-`#0d1117`Teledown is a `python` script that automate downloading pictures from multiple telegram channels at once.
+`rgb(9, 105, 218)`Teledown is a `python` script that automate downloading pictures from multiple telegram channels at once.
 
 ## Installing
 ***Type this in the terminal window:***
