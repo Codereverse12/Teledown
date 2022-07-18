@@ -1,0 +1,15 @@
+NAME
+	Teledown - Script to download multiple Telegram Images
+	
+SYNOPSIS
+	./teledown [OPTION] CHANNALNAME...
+	
+Options                             Descriptions
+
+-h                                  List of commands
+
+-N[Number]                          [Number] of images to Download
+
+E.g  ./teledown WallpapersETdaily 
+     ./teledown -N 3 WallpapersETdaily
+
