@@ -8,7 +8,7 @@ def downloader(links):
     count = 0
     for i in range(len(links)):
         try:
-            res = requests.get(links[i],timeout=(100))
+            res = requests.get(links[i],timeout=(1))
         except Exception as exc:
             count+=1
             continue
