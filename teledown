@@ -34,7 +34,7 @@ def srcimg(listchanl ,num = 0):
         except:
             print(f"{i} timeout")
             continue
-        soupObj = bs4.BeautifulSoup(respObj.text, features="html.parserr")///
+        soupObj = bs4.BeautifulSoup(respObj.text, features="html.parserr")
         tagObjs = soupObj.select('a[style]')
         if num != 0 and num < len(tagObjs):
             tagObjs = tagObjs[:num]
